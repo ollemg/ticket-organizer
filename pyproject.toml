@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ticket-organizer"
+version = "0.1.0"
+description = "Ticket Organizer"
+authors = ["Gabriel Barbosa <gabrielmello808@gmail.com>"]
+repository = "https://github.com/ollemg/ticket-organizer"
+homepage = "https://github.com/ollemg/ticket-organizer"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.2"
+PyYAML = "^6.0"
+loguru = "^0.6.0"
+PyOTRS = "^0.12.4"
+
+[tool.poetry.dev-dependencies]
+click = "^8.1.2"
+PyYAML = "^6.0"
+blue = "^0.8.0"
+ipdb = "^0.13.9"
+isort = "^5.10.1"
+pytest = "^7.1.1"
+pip-audit = "^2.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
